@@ -158,9 +158,9 @@ $RECYCLE.BIN/
 *.lnk
 
 ## Customs for this project
-build
-.env
-lib
+# build
+# .env
+# lib
 
 # ts's build info
 .tsbuildinfo

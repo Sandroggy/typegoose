@@ -5,7 +5,7 @@
       "esnext"
     ],
     "removeComments": false,
-    "module": "commonjs",
+    "module": "ESNEXT",
     "moduleResolution": "node",
     "newLine": "LF",
     "declaration": true,
