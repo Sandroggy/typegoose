@@ -1,5 +1,5 @@
 import { MongoMemoryServer } from 'mongodb-memory-server';
-import { logger } from '../src/logSettings';
+import { logger } from '../src/logSettings.js';
 import { config } from './utils/config.js';
 import { connect } from './utils/connect.js';
 

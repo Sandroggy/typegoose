@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import * as mongoose from 'mongoose';
+import mongoose from 'mongoose';
 import type { DocumentType, Ref, RefType } from './types.js';
 /**
  * Check if the given document is already populated

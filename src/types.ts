@@ -1,4 +1,4 @@
-import type * as mongoose from 'mongoose';
+import type mongoose from 'mongoose';
 import type { Severity, PropType } from './internal/constants.js';
 
 /**

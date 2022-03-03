@@ -1,5 +1,5 @@
 import type { Model, SchemaDefinition } from 'mongoose';
-import type { IGlobalOptions } from '../types';
+import type { IGlobalOptions } from '../types.js';
 /** Schema Map */
 export declare const schemas: Map<string, SchemaDefinition>;
 /** Models Map */

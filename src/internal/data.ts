@@ -1,5 +1,5 @@
 import type { Model, SchemaDefinition } from 'mongoose';
-import type { IGlobalOptions } from '../types';
+import type { IGlobalOptions } from '../types.js';
 import { Severity } from './constants.js';
 
 /** Schema Map */

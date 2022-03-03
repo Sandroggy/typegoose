@@ -1,6 +1,6 @@
 import * as mongoose from 'mongoose';
-import { mapValueToSeverity } from '../../src/globalOptions';
-import { DecoratorKeys, Severity } from '../../src/internal/constants';
+import { mapValueToSeverity } from '../../src/globalOptions.js';
+import { DecoratorKeys, Severity } from '../../src/internal/constants.js';
 import {
   assertion,
   assignMetadata,
@@ -9,8 +9,8 @@ import {
   mergeMetadata,
   mergeSchemaOptions,
   toStringNoFail,
-} from '../../src/internal/utils';
-import { logger } from '../../src/logSettings';
+} from '../../src/internal/utils.js';
+import { logger } from '../../src/logSettings.js';
 import {
   addModelToTypegoose,
   buildSchema,
@@ -22,8 +22,8 @@ import {
   Passthrough,
   prop,
   queryMethod,
-} from '../../src/typegoose';
-import type { AsQueryMethod, Func, QueryHelperThis, QueryMethodMap, Ref, ReturnModelType } from '../../src/types';
+} from '../../src/typegoose.js';
+import type { AsQueryMethod, Func, QueryHelperThis, QueryMethodMap, Ref, ReturnModelType } from '../../src/types.js';
 
 // Note: this file is meant for github issue verification & test adding for these
 // -> and when not an outsourced class(/model) is needed

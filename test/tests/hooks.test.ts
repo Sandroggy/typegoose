@@ -1,9 +1,9 @@
-import { DecoratorKeys } from '../../src/internal/constants';
-import { logger } from '../../src/logSettings';
-import { buildSchema, post, pre, prop } from '../../src/typegoose';
-import { HookOptionsEither, IHooksArray } from '../../src/types';
-import { ExtendedHookModel, HookArray, HookArrayModel, HookModel } from '../models/hook1';
-import { Hook2Model } from '../models/hook2';
+import { DecoratorKeys } from '../../src/internal/constants.js';
+import { logger } from '../../src/logSettings.js';
+import { buildSchema, post, pre, prop } from '../../src/typegoose.js';
+import { HookOptionsEither, IHooksArray } from '../../src/types.js';
+import { ExtendedHookModel, HookArray, HookArrayModel, HookModel } from '../models/hook1.js';
+import { Hook2Model } from '../models/hook2.js';
 
 it('RegEXP tests', async () => {
   const doc = new HookModel({ material: 'iron' });

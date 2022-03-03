@@ -1,5 +1,5 @@
-import * as mongoose from 'mongoose';
-import type { AnyParamConstructor, IModelOptions } from '../types';
+import mongoose from 'mongoose';
+import type { AnyParamConstructor, IModelOptions } from '../types.js';
 /**
  * Private schema builder out of class props
  * -> If you discover this, don't use this function, use Typegoose.buildSchema!

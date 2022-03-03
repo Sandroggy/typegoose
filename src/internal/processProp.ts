@@ -1,5 +1,5 @@
-import { logger } from '../logSettings';
-import { buildSchema, mongoose, Passthrough } from '../typegoose';
+import { logger } from '../logSettings.js';
+import { buildSchema, mongoose, Passthrough } from '../typegoose.js';
 import type {
   AnyParamConstructor,
   DecoratedPropertyMetadata,
@@ -7,7 +7,7 @@ import type {
   KeyStringAny,
   NestedDiscriminatorsMap,
   VirtualPopulateMap,
-} from '../types';
+} from '../types.js';
 import { DecoratorKeys, PropType } from './constants.js';
 import { schemas } from './data.js';
 import {

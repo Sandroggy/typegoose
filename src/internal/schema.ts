@@ -1,6 +1,6 @@
-import * as mongoose from 'mongoose';
-import { logger } from '../logSettings';
-import { buildSchema } from '../typegoose';
+import mongoose from 'mongoose';
+import { logger } from '../logSettings.js';
+import { buildSchema } from '../typegoose.js';
 import type {
   AnyParamConstructor,
   DecoratedPropertyMetadataMap,
@@ -11,7 +11,7 @@ import type {
   NestedDiscriminatorsMap,
   QueryMethodMap,
   VirtualPopulateMap,
-} from '../types';
+} from '../types.js';
 import { DecoratorKeys } from './constants.js';
 import { constructors, schemas } from './data.js';
 import { NoDiscriminatorFunctionError, PathNotInSchemaError } from './errors.js';
