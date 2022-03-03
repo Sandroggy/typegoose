@@ -1,6 +1,6 @@
 /// <reference types="node" />
 import * as mongoose from 'mongoose';
-import type { DocumentType, Ref, RefType } from './types';
+import type { DocumentType, Ref, RefType } from './types.js';
 /**
  * Check if the given document is already populated
  * @param doc The Ref with uncertain type

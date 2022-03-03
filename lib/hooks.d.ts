@@ -1,6 +1,6 @@
 import type { Aggregate, Query } from 'mongoose';
-import { mongoose } from './typegoose';
-import type { DocumentType, EmptyVoidFn } from './types';
+import { mongoose } from './typegoose.js';
+import type { DocumentType, EmptyVoidFn } from './types.js';
 declare type NumberOrDocumentOrDocumentArray<T> = number | DocumentType<T> | DocumentType<T>[];
 declare type ReturnVoid = void | Promise<void>;
 declare type HookNextErrorFn = (err?: Error) => ReturnVoid;

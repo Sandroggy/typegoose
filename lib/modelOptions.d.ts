@@ -1,4 +1,4 @@
-import type { IModelOptions } from './types';
+import type { IModelOptions } from './types.js';
 /**
  * Define Options for the Class
  * @param options Options

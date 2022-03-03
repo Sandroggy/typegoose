@@ -1,5 +1,5 @@
-import { Severity } from './internal/constants';
-import type { IGlobalOptions } from './types';
+import { Severity } from './internal/constants.js';
+import type { IGlobalOptions } from './types.js';
 /**
  * Set Typegoose's global Options
  */

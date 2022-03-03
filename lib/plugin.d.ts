@@ -1,4 +1,4 @@
-import type { Func } from './types';
+import type { Func } from './types.js';
 /**
  * Add a Middleware-Plugin
  * @param mongoosePlugin The Plugin to plug-in

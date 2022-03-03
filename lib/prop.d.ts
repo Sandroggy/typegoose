@@ -1,5 +1,5 @@
-import { PropType } from './internal/constants';
-import type { ArrayPropOptions, BasePropOptions, MapPropOptions, PropOptionsForNumber, PropOptionsForString, VirtualOptions } from './types';
+import { PropType } from './internal/constants.js';
+import type { ArrayPropOptions, BasePropOptions, MapPropOptions, PropOptionsForNumber, PropOptionsForString, VirtualOptions } from './types.js';
 /**
  * Set Property Options for the property below
  * @param options Options

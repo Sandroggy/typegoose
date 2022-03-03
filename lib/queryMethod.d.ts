@@ -1,5 +1,5 @@
 import type { Query } from 'mongoose';
-import type { AnyParamConstructor, QueryHelperThis } from './types';
+import type { AnyParamConstructor, QueryHelperThis } from './types.js';
 /**
  * Adds a query method to schema.
  *

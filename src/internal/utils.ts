@@ -15,8 +15,8 @@ import type {
   PropOptionsForString,
   VirtualOptions,
 } from '../types';
-import { DecoratorKeys, Severity, PropType } from './constants';
-import { constructors, globalOptions, schemas } from './data';
+import { DecoratorKeys, Severity, PropType } from './constants.js';
+import { constructors, globalOptions, schemas } from './data.js';
 import {
   AssertionFallbackError,
   InvalidOptionsConstructorError,
@@ -24,7 +24,7 @@ import {
   NoValidClassError,
   ResolveTypegooseNameError,
   StringLengthExpectedError,
-} from './errors';
+} from './errors.js';
 
 /**
  * Returns true, if the type is included in mongoose.Schema.Types

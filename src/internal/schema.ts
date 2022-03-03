@@ -12,11 +12,11 @@ import type {
   QueryMethodMap,
   VirtualPopulateMap,
 } from '../types';
-import { DecoratorKeys } from './constants';
-import { constructors, schemas } from './data';
-import { NoDiscriminatorFunctionError, PathNotInSchemaError } from './errors';
-import { processProp } from './processProp';
-import { assertion, assertionIsClass, assignGlobalModelOptions, getName, isNullOrUndefined, mergeSchemaOptions } from './utils';
+import { DecoratorKeys } from './constants.js';
+import { constructors, schemas } from './data.js';
+import { NoDiscriminatorFunctionError, PathNotInSchemaError } from './errors.js';
+import { processProp } from './processProp.js';
+import { assertion, assertionIsClass, assignGlobalModelOptions, getName, isNullOrUndefined, mergeSchemaOptions } from './utils.js';
 
 /**
  * Private schema builder out of class props

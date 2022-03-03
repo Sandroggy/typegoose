@@ -1,5 +1,5 @@
 import type { Types } from 'mongoose';
-import type { AnyParamConstructor, DocumentType, RefType } from './types';
+import type { AnyParamConstructor, DocumentType, RefType } from './types.js';
 export declare abstract class TimeStamps {
     createdAt?: Date;
     updatedAt?: Date;

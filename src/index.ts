@@ -1,7 +1,7 @@
-import { DecoratorKeys } from './internal/constants';
-import { getName } from './internal/utils';
-import { logger } from './logSettings';
-import type { BeAnObject, IIndexArray, IndexOptions } from './types';
+import { DecoratorKeys } from './internal/constants.js';
+import { getName } from './internal/utils.js';
+import { logger } from './logSettings.js';
+import type { BeAnObject, IIndexArray, IndexOptions } from './types.js';
 
 /**
  * Defines an index (most likely compound) for this schema.

@@ -1,4 +1,4 @@
-import type { BeAnObject, IndexOptions } from './types';
+import type { BeAnObject, IndexOptions } from './types.js';
 /**
  * Defines an index (most likely compound) for this schema.
  * @param fields Which fields to give the Options

@@ -1,22 +1,22 @@
 import * as mongoose from 'mongoose';
 import 'reflect-metadata';
-import { setGlobalOptions } from './globalOptions';
-import type { AnyParamConstructor, BeAnObject, DocumentType, IModelOptions, Ref, ReturnModelType } from './types';
+import { setGlobalOptions } from './globalOptions.js';
+import type { AnyParamConstructor, BeAnObject, DocumentType, IModelOptions, Ref, ReturnModelType } from './types.js';
 export { mongoose, setGlobalOptions };
-export { setLogLevel, LogLevels } from './logSettings';
-export * from './prop';
-export * from './hooks';
-export * from './plugin';
-export * from './index';
-export * from './modelOptions';
-export * from './queryMethod';
-export * from './typeguards';
-export * as defaultClasses from './defaultClasses';
-export * as errors from './internal/errors';
-export * as types from './types';
+export { setLogLevel, LogLevels } from './logSettings.js';
+export * from './prop.js';
+export * from './hooks.js';
+export * from './plugin.js';
+export * from './index.js';
+export * from './modelOptions.js';
+export * from './queryMethod.js';
+export * from './typeguards.js';
+export * as defaultClasses from './defaultClasses.js';
+export * as errors from './internal/errors.js';
+export * as types from './types.js';
 export { DocumentType, Ref, ReturnModelType };
-export { getClassForDocument, getClass, getName } from './internal/utils';
-export { Severity, PropType } from './internal/constants';
+export { getClassForDocument, getClass, getName } from './internal/utils.js';
+export { Severity, PropType } from './internal/constants.js';
 /**
  * Get a Model for a Class
  * @param cl The uninitialized Class

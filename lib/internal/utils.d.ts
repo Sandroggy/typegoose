@@ -1,6 +1,6 @@
 import * as mongoose from 'mongoose';
 import type { AnyParamConstructor, DeferredFunc, Func, GetTypeReturn, IModelOptions, IObjectWithTypegooseFunction, IObjectWithTypegooseName, IPrototype, KeyStringAny, PropOptionsForNumber, PropOptionsForString, VirtualOptions } from '../types';
-import { DecoratorKeys, PropType } from './constants';
+import { DecoratorKeys, PropType } from './constants.js';
 /**
  * Returns true, if the type is included in mongoose.Schema.Types
  * @param Type The Type
