@@ -4,6 +4,7 @@
   "description": "Define Mongoose models using TypeScript classes",
   "main": "lib/typegoose.js",
   "types": "lib/typegoose.d.ts",
+  "type": "module",
   "engines": {
     "node": ">=12.22.0"
   },
@@ -60,7 +61,6 @@
     "eslint": "^8.9.0",
     "eslint-config-prettier": "^8.4.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^7.0.4",
     "jest": "^27.5.1",
     "lint-staged": "^11.2.6",
     "mongodb-memory-server": "^8.4.0",
@@ -77,7 +77,8 @@
     "loglevel": "^1.8.0",
     "reflect-metadata": "^0.1.13",
     "semver": "^7.3.2",
-    "tslib": "^2.3.1"
+    "tslib": "^2.3.1",
+    "yarn": "^1.22.17"
   },
   "publishConfig": {
     "access": "public"
